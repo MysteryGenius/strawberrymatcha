@@ -7,12 +7,21 @@
     "build": "next build",
     "start": "next start",
     "lint": "biome check",
-    "format": "biome format --write"
+    "format": "biome format --write",
+    "prepare": "husky"
   },
   "dependencies": {
+    "@sanity/icons": "^3.7.4",
+    "@sanity/image-url": "2",
+    "@sanity/ui": "^3.1.14",
+    "@sanity/vision": "5",
     "next": "16.2.2",
+    "next-sanity": "12",
     "react": "19.2.4",
-    "react-dom": "19.2.4"
+    "react-dom": "19.2.4",
+    "react-player": "^3.4.0",
+    "sanity": "5",
+    "styled-components": "6"
   },
   "devDependencies": {
     "@biomejs/biome": "2.2.0",
@@ -20,6 +29,7 @@
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "husky": "^9.1.7",
     "tailwindcss": "^4",
     "typescript": "^5"
   }
